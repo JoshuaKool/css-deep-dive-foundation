@@ -1,0 +1,58 @@
+@import 'settings';
+@import 'foundation';
+
+@include foundation-everything;
+
+img {
+    height: 80px;
+    width: 80px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-wrap{
+    border: 1px solid lightgrey;
+    width: 200px;
+    height: 200px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 100%;
+    color: black;
+}
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 100%;
+    color: black;
+    overflow: hidden;
+}
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sky-blue{
+    background-color: lightskyblue;
+    height:50%;
+    width: 50%;
+    display: block;
+}
+
+.light-yellow{
+    background-color: lightyellow;
+    height:50%;
+    width: 50%;
+}
